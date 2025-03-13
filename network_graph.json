@@ -1,0 +1,1733 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "object_id": "T001_STG_customer",
+      "id": "STG_customer"
+    },
+    {
+      "object_id": "T001_STG_order",
+      "id": "STG_order"
+    },
+    {
+      "object_id": "T001_STG_product",
+      "id": "STG_product"
+    },
+    {
+      "object_id": "T001_STG_sales",
+      "id": "STG_sales"
+    },
+    {
+      "object_id": "T001_STG_inventory",
+      "id": "STG_inventory"
+    },
+    {
+      "object_id": "T001_STG_supplier",
+      "id": "STG_supplier"
+    },
+    {
+      "object_id": "T001_STG_employee",
+      "id": "STG_employee"
+    },
+    {
+      "object_id": "T001_STG_shipment",
+      "id": "STG_shipment"
+    },
+    {
+      "object_id": "T001_STG_return",
+      "id": "STG_return"
+    },
+    {
+      "object_id": "T001_STG_payment",
+      "id": "STG_payment"
+    },
+    {
+      "object_id": "T001_STG_category",
+      "id": "STG_category"
+    },
+    {
+      "object_id": "T001_STG_location",
+      "id": "STG_location"
+    },
+    {
+      "object_id": "T001_STG_promotion",
+      "id": "STG_promotion"
+    },
+    {
+      "object_id": "T001_STG_review",
+      "id": "STG_review"
+    },
+    {
+      "object_id": "T001_STG_warehouse",
+      "id": "STG_warehouse"
+    },
+    {
+      "object_id": "T001_STG_price",
+      "id": "STG_price"
+    },
+    {
+      "object_id": "T001_STG_discount",
+      "id": "STG_discount"
+    },
+    {
+      "object_id": "T001_STG_transaction",
+      "id": "STG_transaction"
+    },
+    {
+      "object_id": "T001_STG_account",
+      "id": "STG_account"
+    },
+    {
+      "object_id": "T001_STG_department",
+      "id": "STG_department"
+    },
+    {
+      "object_id": "T001_STG_store",
+      "id": "STG_store"
+    },
+    {
+      "object_id": "T001_STG_region",
+      "id": "STG_region"
+    },
+    {
+      "object_id": "T001_STG_campaign",
+      "id": "STG_campaign"
+    },
+    {
+      "object_id": "T001_STG_brand",
+      "id": "STG_brand"
+    },
+    {
+      "object_id": "T001_STG_market",
+      "id": "STG_market"
+    },
+    {
+      "object_id": "T001_SAT_daily",
+      "id": "SAT_daily"
+    },
+    {
+      "object_id": "T001_SAT_monthly",
+      "id": "SAT_monthly"
+    },
+    {
+      "object_id": "T001_SAT_yearly",
+      "id": "SAT_yearly"
+    },
+    {
+      "object_id": "T001_SAT_customer_profile",
+      "id": "SAT_customer_profile"
+    },
+    {
+      "object_id": "T001_SAT_order_details",
+      "id": "SAT_order_details"
+    },
+    {
+      "object_id": "T001_SAT_product_metrics",
+      "id": "SAT_product_metrics"
+    },
+    {
+      "object_id": "T001_SAT_sales_summary",
+      "id": "SAT_sales_summary"
+    },
+    {
+      "object_id": "T001_SAT_inventory_status",
+      "id": "SAT_inventory_status"
+    },
+    {
+      "object_id": "T001_SAT_supplier_performance",
+      "id": "SAT_supplier_performance"
+    },
+    {
+      "object_id": "T001_SAT_employee_stats",
+      "id": "SAT_employee_stats"
+    },
+    {
+      "object_id": "T001_SAT_shipment_tracking",
+      "id": "SAT_shipment_tracking"
+    },
+    {
+      "object_id": "T001_SAT_return_analysis",
+      "id": "SAT_return_analysis"
+    },
+    {
+      "object_id": "T001_SAT_payment_summary",
+      "id": "SAT_payment_summary"
+    },
+    {
+      "object_id": "T001_SAT_category_performance",
+      "id": "SAT_category_performance"
+    },
+    {
+      "object_id": "T001_SAT_location_metrics",
+      "id": "SAT_location_metrics"
+    },
+    {
+      "object_id": "T001_SAT_promotion_effectiveness",
+      "id": "SAT_promotion_effectiveness"
+    },
+    {
+      "object_id": "T001_SAT_review_analytics",
+      "id": "SAT_review_analytics"
+    },
+    {
+      "object_id": "T001_SAT_warehouse_status",
+      "id": "SAT_warehouse_status"
+    },
+    {
+      "object_id": "T001_SAT_price_history",
+      "id": "SAT_price_history"
+    },
+    {
+      "object_id": "T001_SAT_discount_impact",
+      "id": "SAT_discount_impact"
+    },
+    {
+      "object_id": "T001_SAT_transaction_summary",
+      "id": "SAT_transaction_summary"
+    },
+    {
+      "object_id": "T001_SAT_account_status",
+      "id": "SAT_account_status"
+    },
+    {
+      "object_id": "T001_SAT_department_metrics",
+      "id": "SAT_department_metrics"
+    },
+    {
+      "object_id": "T001_SAT_store_performance",
+      "id": "SAT_store_performance"
+    },
+    {
+      "object_id": "T001_SAT_region_analysis",
+      "id": "SAT_region_analysis"
+    },
+    {
+      "object_id": "T001_FACT_sales",
+      "id": "FACT_sales"
+    },
+    {
+      "object_id": "T001_FACT_orders",
+      "id": "FACT_orders"
+    },
+    {
+      "object_id": "T001_FACT_inventory",
+      "id": "FACT_inventory"
+    },
+    {
+      "object_id": "T001_FACT_customers",
+      "id": "FACT_customers"
+    },
+    {
+      "object_id": "T001_FACT_employees",
+      "id": "FACT_employees"
+    },
+    {
+      "object_id": "T001_FACT_shipments",
+      "id": "FACT_shipments"
+    },
+    {
+      "object_id": "T001_FACT_returns",
+      "id": "FACT_returns"
+    },
+    {
+      "object_id": "T001_FACT_payments",
+      "id": "FACT_payments"
+    },
+    {
+      "object_id": "T001_FACT_products",
+      "id": "FACT_products"
+    },
+    {
+      "object_id": "T001_FACT_suppliers",
+      "id": "FACT_suppliers"
+    },
+    {
+      "object_id": "T001_FACT_categories",
+      "id": "FACT_categories"
+    },
+    {
+      "object_id": "T001_FACT_locations",
+      "id": "FACT_locations"
+    },
+    {
+      "object_id": "T001_FACT_promotions",
+      "id": "FACT_promotions"
+    },
+    {
+      "object_id": "T001_FACT_reviews",
+      "id": "FACT_reviews"
+    },
+    {
+      "object_id": "T001_FACT_warehouses",
+      "id": "FACT_warehouses"
+    },
+    {
+      "object_id": "T001_FACT_prices",
+      "id": "FACT_prices"
+    },
+    {
+      "object_id": "T001_FACT_discounts",
+      "id": "FACT_discounts"
+    },
+    {
+      "object_id": "T001_FACT_transactions",
+      "id": "FACT_transactions"
+    },
+    {
+      "object_id": "T001_FACT_accounts",
+      "id": "FACT_accounts"
+    },
+    {
+      "object_id": "T001_FACT_departments",
+      "id": "FACT_departments"
+    },
+    {
+      "object_id": "T001_FACT_stores",
+      "id": "FACT_stores"
+    },
+    {
+      "object_id": "T001_FACT_regions",
+      "id": "FACT_regions"
+    },
+    {
+      "object_id": "T001_FACT_campaigns",
+      "id": "FACT_campaigns"
+    },
+    {
+      "object_id": "T001_FACT_brands",
+      "id": "FACT_brands"
+    },
+    {
+      "object_id": "T001_FACT_markets",
+      "id": "FACT_markets"
+    },
+    {
+      "object_id": "T001_VW_sales_summary",
+      "id": "VW_sales_summary"
+    },
+    {
+      "object_id": "T001_VW_order_analytics",
+      "id": "VW_order_analytics"
+    },
+    {
+      "object_id": "T001_VW_inventory_report",
+      "id": "VW_inventory_report"
+    },
+    {
+      "object_id": "T001_VW_customer_insights",
+      "id": "VW_customer_insights"
+    },
+    {
+      "object_id": "T001_VW_employee_dashboard",
+      "id": "VW_employee_dashboard"
+    },
+    {
+      "object_id": "T001_VW_shipment_status",
+      "id": "VW_shipment_status"
+    },
+    {
+      "object_id": "T001_VW_return_summary",
+      "id": "VW_return_summary"
+    },
+    {
+      "object_id": "T001_VW_payment_analytics",
+      "id": "VW_payment_analytics"
+    },
+    {
+      "object_id": "T001_VW_product_performance",
+      "id": "VW_product_performance"
+    },
+    {
+      "object_id": "T001_VW_supplier_overview",
+      "id": "VW_supplier_overview"
+    },
+    {
+      "object_id": "T001_VW_category_summary",
+      "id": "VW_category_summary"
+    },
+    {
+      "object_id": "T001_VW_location_report",
+      "id": "VW_location_report"
+    },
+    {
+      "object_id": "T001_VW_promotion_impact",
+      "id": "VW_promotion_impact"
+    },
+    {
+      "object_id": "T001_VW_review_summary",
+      "id": "VW_review_summary"
+    },
+    {
+      "object_id": "T001_VW_warehouse_metrics",
+      "id": "VW_warehouse_metrics"
+    },
+    {
+      "object_id": "T001_VW_price_analysis",
+      "id": "VW_price_analysis"
+    },
+    {
+      "object_id": "T001_VW_discount_summary",
+      "id": "VW_discount_summary"
+    },
+    {
+      "object_id": "T001_VW_transaction_report",
+      "id": "VW_transaction_report"
+    },
+    {
+      "object_id": "T001_VW_account_overview",
+      "id": "VW_account_overview"
+    },
+    {
+      "object_id": "T001_VW_department_summary",
+      "id": "VW_department_summary"
+    },
+    {
+      "object_id": "T001_VW_store_analytics",
+      "id": "VW_store_analytics"
+    },
+    {
+      "object_id": "T001_VW_region_performance",
+      "id": "VW_region_performance"
+    },
+    {
+      "object_id": "T001_VW_campaign_metrics",
+      "id": "VW_campaign_metrics"
+    },
+    {
+      "object_id": "T001_VW_brand_summary",
+      "id": "VW_brand_summary"
+    },
+    {
+      "object_id": "T001_VW_market_analysis",
+      "id": "VW_market_analysis"
+    }
+  ],
+  "links": [
+    {
+      "source": "STG_customer",
+      "target": "FACT_suppliers"
+    },
+    {
+      "source": "STG_customer",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "STG_customer",
+      "target": "STG_discount"
+    },
+    {
+      "source": "STG_customer",
+      "target": "STG_warehouse"
+    },
+    {
+      "source": "STG_customer",
+      "target": "SAT_monthly"
+    },
+    {
+      "source": "STG_customer",
+      "target": "SAT_promotion_effectiveness"
+    },
+    {
+      "source": "STG_customer",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "STG_customer",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "STG_customer",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "STG_customer",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "STG_order",
+      "target": "STG_sales"
+    },
+    {
+      "source": "STG_order",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "STG_order",
+      "target": "FACT_employees"
+    },
+    {
+      "source": "STG_order",
+      "target": "VW_sales_summary"
+    },
+    {
+      "source": "STG_product",
+      "target": "STG_sales"
+    },
+    {
+      "source": "STG_product",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "STG_product",
+      "target": "SAT_payment_summary"
+    },
+    {
+      "source": "STG_product",
+      "target": "STG_store"
+    },
+    {
+      "source": "STG_product",
+      "target": "VW_employee_dashboard"
+    },
+    {
+      "source": "STG_product",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "STG_sales",
+      "target": "VW_customer_insights"
+    },
+    {
+      "source": "STG_sales",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "STG_sales",
+      "target": "STG_brand"
+    },
+    {
+      "source": "STG_sales",
+      "target": "SAT_inventory_status"
+    },
+    {
+      "source": "STG_sales",
+      "target": "FACT_employees"
+    },
+    {
+      "source": "STG_sales",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "STG_sales",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "SAT_return_analysis"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "STG_location"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "SAT_sales_summary"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "STG_inventory",
+      "target": "VW_warehouse_metrics"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "SAT_warehouse_status"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "SAT_yearly"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "VW_payment_analytics"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "FACT_orders"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "VW_order_analytics"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "STG_region"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "SAT_monthly"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "FACT_categories"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "VW_discount_summary"
+    },
+    {
+      "source": "STG_supplier",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "STG_employee",
+      "target": "VW_employee_dashboard"
+    },
+    {
+      "source": "STG_employee",
+      "target": "SAT_supplier_performance"
+    },
+    {
+      "source": "STG_employee",
+      "target": "SAT_yearly"
+    },
+    {
+      "source": "STG_employee",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "STG_brand"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "FACT_customers"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "STG_transaction"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "FACT_inventory"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "FACT_markets"
+    },
+    {
+      "source": "STG_shipment",
+      "target": "VW_store_analytics"
+    },
+    {
+      "source": "STG_return",
+      "target": "VW_product_performance"
+    },
+    {
+      "source": "STG_return",
+      "target": "SAT_sales_summary"
+    },
+    {
+      "source": "STG_return",
+      "target": "FACT_customers"
+    },
+    {
+      "source": "STG_return",
+      "target": "VW_payment_analytics"
+    },
+    {
+      "source": "STG_return",
+      "target": "FACT_campaigns"
+    },
+    {
+      "source": "STG_payment",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "STG_payment",
+      "target": "STG_account"
+    },
+    {
+      "source": "STG_payment",
+      "target": "VW_review_summary"
+    },
+    {
+      "source": "STG_payment",
+      "target": "FACT_suppliers"
+    },
+    {
+      "source": "STG_payment",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "STG_payment",
+      "target": "STG_promotion"
+    },
+    {
+      "source": "STG_payment",
+      "target": "SAT_daily"
+    },
+    {
+      "source": "STG_payment",
+      "target": "SAT_store_performance"
+    },
+    {
+      "source": "STG_payment",
+      "target": "SAT_region_analysis"
+    },
+    {
+      "source": "STG_payment",
+      "target": "FACT_categories"
+    },
+    {
+      "source": "STG_category",
+      "target": "VW_account_overview"
+    },
+    {
+      "source": "STG_category",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "STG_category",
+      "target": "FACT_employees"
+    },
+    {
+      "source": "STG_category",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "STG_category",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "STG_category",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "STG_category",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "STG_location",
+      "target": "SAT_order_details"
+    },
+    {
+      "source": "STG_location",
+      "target": "SAT_shipment_tracking"
+    },
+    {
+      "source": "STG_location",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "STG_location",
+      "target": "STG_store"
+    },
+    {
+      "source": "STG_location",
+      "target": "STG_promotion"
+    },
+    {
+      "source": "STG_location",
+      "target": "FACT_products"
+    },
+    {
+      "source": "STG_location",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "STG_location",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "STG_promotion",
+      "target": "SAT_employee_stats"
+    },
+    {
+      "source": "STG_promotion",
+      "target": "STG_store"
+    },
+    {
+      "source": "STG_promotion",
+      "target": "FACT_sales"
+    },
+    {
+      "source": "STG_promotion",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "STG_review",
+      "target": "SAT_review_analytics"
+    },
+    {
+      "source": "STG_review",
+      "target": "FACT_returns"
+    },
+    {
+      "source": "STG_review",
+      "target": "FACT_suppliers"
+    },
+    {
+      "source": "STG_review",
+      "target": "VW_shipment_status"
+    },
+    {
+      "source": "STG_review",
+      "target": "STG_transaction"
+    },
+    {
+      "source": "STG_review",
+      "target": "SAT_price_history"
+    },
+    {
+      "source": "STG_review",
+      "target": "FACT_warehouses"
+    },
+    {
+      "source": "STG_review",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "STG_warehouse",
+      "target": "STG_campaign"
+    },
+    {
+      "source": "STG_warehouse",
+      "target": "FACT_categories"
+    },
+    {
+      "source": "STG_warehouse",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "STG_price",
+      "target": "SAT_account_status"
+    },
+    {
+      "source": "STG_price",
+      "target": "FACT_warehouses"
+    },
+    {
+      "source": "STG_price",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "STG_price",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "STG_price",
+      "target": "SAT_return_analysis"
+    },
+    {
+      "source": "STG_price",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "STG_price",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "STG_price",
+      "target": "VW_product_performance"
+    },
+    {
+      "source": "STG_discount",
+      "target": "FACT_campaigns"
+    },
+    {
+      "source": "STG_discount",
+      "target": "SAT_store_performance"
+    },
+    {
+      "source": "STG_discount",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "STG_discount",
+      "target": "VW_category_summary"
+    },
+    {
+      "source": "STG_discount",
+      "target": "VW_review_summary"
+    },
+    {
+      "source": "STG_discount",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "STG_transaction",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "STG_transaction",
+      "target": "STG_region"
+    },
+    {
+      "source": "STG_transaction",
+      "target": "STG_market"
+    },
+    {
+      "source": "STG_transaction",
+      "target": "SAT_supplier_performance"
+    },
+    {
+      "source": "STG_transaction",
+      "target": "SAT_employee_stats"
+    },
+    {
+      "source": "STG_account",
+      "target": "VW_customer_insights"
+    },
+    {
+      "source": "STG_account",
+      "target": "FACT_reviews"
+    },
+    {
+      "source": "STG_account",
+      "target": "SAT_customer_profile"
+    },
+    {
+      "source": "STG_account",
+      "target": "SAT_payment_summary"
+    },
+    {
+      "source": "STG_account",
+      "target": "FACT_categories"
+    },
+    {
+      "source": "STG_department",
+      "target": "SAT_order_details"
+    },
+    {
+      "source": "STG_department",
+      "target": "SAT_promotion_effectiveness"
+    },
+    {
+      "source": "STG_department",
+      "target": "FACT_customers"
+    },
+    {
+      "source": "STG_department",
+      "target": "SAT_customer_profile"
+    },
+    {
+      "source": "STG_department",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "STG_store",
+      "target": "SAT_sales_summary"
+    },
+    {
+      "source": "STG_store",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "STG_store",
+      "target": "VW_order_analytics"
+    },
+    {
+      "source": "STG_store",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "STG_store",
+      "target": "STG_brand"
+    },
+    {
+      "source": "STG_region",
+      "target": "VW_sales_summary"
+    },
+    {
+      "source": "STG_region",
+      "target": "STG_brand"
+    },
+    {
+      "source": "STG_region",
+      "target": "FACT_reviews"
+    },
+    {
+      "source": "STG_region",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "STG_region",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "STG_region",
+      "target": "VW_order_analytics"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "STG_market"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "SAT_return_analysis"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "VW_department_summary"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "SAT_inventory_status"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "FACT_inventory"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "STG_campaign",
+      "target": "VW_region_performance"
+    },
+    {
+      "source": "STG_brand",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "STG_brand",
+      "target": "FACT_returns"
+    },
+    {
+      "source": "STG_brand",
+      "target": "SAT_daily"
+    },
+    {
+      "source": "STG_brand",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "STG_market",
+      "target": "FACT_products"
+    },
+    {
+      "source": "STG_market",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "STG_market",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "SAT_store_performance"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "FACT_inventory"
+    },
+    {
+      "source": "SAT_daily",
+      "target": "FACT_locations"
+    },
+    {
+      "source": "SAT_monthly",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "SAT_monthly",
+      "target": "SAT_review_analytics"
+    },
+    {
+      "source": "SAT_yearly",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "SAT_yearly",
+      "target": "FACT_warehouses"
+    },
+    {
+      "source": "SAT_yearly",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "SAT_customer_profile",
+      "target": "SAT_region_analysis"
+    },
+    {
+      "source": "SAT_customer_profile",
+      "target": "SAT_review_analytics"
+    },
+    {
+      "source": "SAT_customer_profile",
+      "target": "FACT_accounts"
+    },
+    {
+      "source": "SAT_customer_profile",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "SAT_customer_profile",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "VW_employee_dashboard"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "SAT_department_metrics"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_customers"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "SAT_review_analytics"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_orders"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_categories"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_reviews"
+    },
+    {
+      "source": "SAT_order_details",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "VW_region_performance"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "SAT_discount_impact"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_campaigns"
+    },
+    {
+      "source": "SAT_product_metrics",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "SAT_sales_summary",
+      "target": "FACT_markets"
+    },
+    {
+      "source": "SAT_sales_summary",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "SAT_inventory_status",
+      "target": "FACT_orders"
+    },
+    {
+      "source": "SAT_inventory_status",
+      "target": "SAT_account_status"
+    },
+    {
+      "source": "SAT_supplier_performance",
+      "target": "SAT_promotion_effectiveness"
+    },
+    {
+      "source": "SAT_employee_stats",
+      "target": "SAT_category_performance"
+    },
+    {
+      "source": "SAT_employee_stats",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "SAT_employee_stats",
+      "target": "FACT_reviews"
+    },
+    {
+      "source": "SAT_employee_stats",
+      "target": "FACT_markets"
+    },
+    {
+      "source": "SAT_shipment_tracking",
+      "target": "SAT_warehouse_status"
+    },
+    {
+      "source": "SAT_shipment_tracking",
+      "target": "VW_product_performance"
+    },
+    {
+      "source": "SAT_shipment_tracking",
+      "target": "FACT_orders"
+    },
+    {
+      "source": "SAT_shipment_tracking",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "SAT_shipment_tracking",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "SAT_return_analysis",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "SAT_return_analysis",
+      "target": "FACT_products"
+    },
+    {
+      "source": "SAT_return_analysis",
+      "target": "FACT_markets"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "SAT_department_metrics"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "SAT_payment_summary",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "SAT_category_performance",
+      "target": "FACT_products"
+    },
+    {
+      "source": "SAT_category_performance",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "SAT_category_performance",
+      "target": "FACT_inventory"
+    },
+    {
+      "source": "SAT_category_performance",
+      "target": "VW_warehouse_metrics"
+    },
+    {
+      "source": "SAT_location_metrics",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "SAT_location_metrics",
+      "target": "FACT_campaigns"
+    },
+    {
+      "source": "SAT_location_metrics",
+      "target": "FACT_suppliers"
+    },
+    {
+      "source": "SAT_location_metrics",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "SAT_location_metrics",
+      "target": "VW_employee_dashboard"
+    },
+    {
+      "source": "SAT_promotion_effectiveness",
+      "target": "FACT_sales"
+    },
+    {
+      "source": "SAT_promotion_effectiveness",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "SAT_promotion_effectiveness",
+      "target": "VW_department_summary"
+    },
+    {
+      "source": "SAT_promotion_effectiveness",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "SAT_promotion_effectiveness",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "SAT_review_analytics",
+      "target": "FACT_inventory"
+    },
+    {
+      "source": "SAT_review_analytics",
+      "target": "FACT_discounts"
+    },
+    {
+      "source": "SAT_review_analytics",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "SAT_review_analytics",
+      "target": "SAT_department_metrics"
+    },
+    {
+      "source": "SAT_review_analytics",
+      "target": "VW_employee_dashboard"
+    },
+    {
+      "source": "SAT_warehouse_status",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "SAT_warehouse_status",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "SAT_warehouse_status",
+      "target": "FACT_sales"
+    },
+    {
+      "source": "SAT_warehouse_status",
+      "target": "VW_department_summary"
+    },
+    {
+      "source": "SAT_price_history",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "SAT_price_history",
+      "target": "VW_payment_analytics"
+    },
+    {
+      "source": "SAT_price_history",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "SAT_price_history",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "SAT_price_history",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "SAT_discount_impact",
+      "target": "FACT_sales"
+    },
+    {
+      "source": "SAT_discount_impact",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "SAT_discount_impact",
+      "target": "VW_customer_insights"
+    },
+    {
+      "source": "SAT_transaction_summary",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "SAT_transaction_summary",
+      "target": "VW_review_summary"
+    },
+    {
+      "source": "SAT_transaction_summary",
+      "target": "VW_category_summary"
+    },
+    {
+      "source": "SAT_transaction_summary",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "SAT_account_status",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "SAT_account_status",
+      "target": "FACT_campaigns"
+    },
+    {
+      "source": "SAT_account_status",
+      "target": "VW_region_performance"
+    },
+    {
+      "source": "SAT_department_metrics",
+      "target": "FACT_orders"
+    },
+    {
+      "source": "SAT_department_metrics",
+      "target": "VW_shipment_status"
+    },
+    {
+      "source": "SAT_department_metrics",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "SAT_department_metrics",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "SAT_store_performance",
+      "target": "FACT_shipments"
+    },
+    {
+      "source": "SAT_store_performance",
+      "target": "FACT_products"
+    },
+    {
+      "source": "SAT_store_performance",
+      "target": "VW_sales_summary"
+    },
+    {
+      "source": "SAT_region_analysis",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "SAT_region_analysis",
+      "target": "VW_department_summary"
+    },
+    {
+      "source": "FACT_sales",
+      "target": "FACT_locations"
+    },
+    {
+      "source": "FACT_sales",
+      "target": "FACT_promotions"
+    },
+    {
+      "source": "FACT_sales",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "FACT_orders",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "FACT_orders",
+      "target": "VW_region_performance"
+    },
+    {
+      "source": "FACT_orders",
+      "target": "FACT_products"
+    },
+    {
+      "source": "FACT_orders",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "FACT_inventory",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "FACT_inventory",
+      "target": "FACT_warehouses"
+    },
+    {
+      "source": "FACT_inventory",
+      "target": "FACT_locations"
+    },
+    {
+      "source": "FACT_inventory",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "FACT_customers",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "FACT_customers",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "FACT_customers",
+      "target": "FACT_regions"
+    },
+    {
+      "source": "FACT_employees",
+      "target": "VW_product_performance"
+    },
+    {
+      "source": "FACT_employees",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "FACT_shipments",
+      "target": "FACT_payments"
+    },
+    {
+      "source": "FACT_shipments",
+      "target": "FACT_accounts"
+    },
+    {
+      "source": "FACT_shipments",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "FACT_shipments",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "FACT_returns",
+      "target": "VW_department_summary"
+    },
+    {
+      "source": "FACT_returns",
+      "target": "FACT_brands"
+    },
+    {
+      "source": "FACT_returns",
+      "target": "FACT_warehouses"
+    },
+    {
+      "source": "FACT_payments",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "FACT_payments",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "FACT_payments",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "FACT_products",
+      "target": "FACT_reviews"
+    },
+    {
+      "source": "FACT_products",
+      "target": "FACT_stores"
+    },
+    {
+      "source": "FACT_suppliers",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "FACT_suppliers",
+      "target": "FACT_markets"
+    },
+    {
+      "source": "FACT_categories",
+      "target": "FACT_transactions"
+    },
+    {
+      "source": "FACT_categories",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "FACT_categories",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "FACT_categories",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "FACT_locations",
+      "target": "FACT_prices"
+    },
+    {
+      "source": "FACT_locations",
+      "target": "VW_review_summary"
+    },
+    {
+      "source": "FACT_promotions",
+      "target": "FACT_departments"
+    },
+    {
+      "source": "FACT_reviews",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "FACT_prices",
+      "target": "VW_customer_insights"
+    },
+    {
+      "source": "FACT_prices",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "FACT_discounts",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "FACT_discounts",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "FACT_transactions",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "FACT_transactions",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "FACT_transactions",
+      "target": "VW_account_overview"
+    },
+    {
+      "source": "FACT_transactions",
+      "target": "VW_store_analytics"
+    },
+    {
+      "source": "FACT_accounts",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "FACT_accounts",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "FACT_accounts",
+      "target": "VW_payment_analytics"
+    },
+    {
+      "source": "FACT_accounts",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "FACT_departments",
+      "target": "VW_order_analytics"
+    },
+    {
+      "source": "FACT_stores",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "FACT_campaigns",
+      "target": "VW_return_summary"
+    },
+    {
+      "source": "FACT_campaigns",
+      "target": "VW_shipment_status"
+    },
+    {
+      "source": "FACT_campaigns",
+      "target": "VW_discount_summary"
+    },
+    {
+      "source": "FACT_brands",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "FACT_brands",
+      "target": "VW_shipment_status"
+    },
+    {
+      "source": "FACT_markets",
+      "target": "VW_sales_summary"
+    },
+    {
+      "source": "FACT_markets",
+      "target": "VW_inventory_report"
+    },
+    {
+      "source": "VW_order_analytics",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "VW_order_analytics",
+      "target": "VW_price_analysis"
+    },
+    {
+      "source": "VW_order_analytics",
+      "target": "VW_promotion_impact"
+    },
+    {
+      "source": "VW_inventory_report",
+      "target": "VW_product_performance"
+    },
+    {
+      "source": "VW_employee_dashboard",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "VW_return_summary",
+      "target": "VW_supplier_overview"
+    },
+    {
+      "source": "VW_payment_analytics",
+      "target": "VW_transaction_report"
+    },
+    {
+      "source": "VW_payment_analytics",
+      "target": "VW_brand_summary"
+    },
+    {
+      "source": "VW_payment_analytics",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "VW_product_performance",
+      "target": "VW_campaign_metrics"
+    },
+    {
+      "source": "VW_category_summary",
+      "target": "VW_location_report"
+    },
+    {
+      "source": "VW_price_analysis",
+      "target": "VW_account_overview"
+    },
+    {
+      "source": "VW_discount_summary",
+      "target": "VW_market_analysis"
+    },
+    {
+      "source": "VW_store_analytics",
+      "target": "VW_campaign_metrics"
+    }
+  ]
+}
