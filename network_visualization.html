@@ -51,6 +51,8 @@
                  border-radius: 5px;
                  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                  z-index: 1000;
+                 word-wrap: break-word;
+                 white-space: normal;
              }
 
              
@@ -146,6 +148,21 @@
                               <ul>
                                   ${connectedNodes.map(id => `<li>${nodes.get(id).label}</li>`).join('')}
                               </ul>
+                          `;
+                          
+                          document.getElementById('node-info').innerHTML = info;
+                      } else if (params.edges.length > 0) {
+                          var edgeId = params.edges[0];
+                          var edge = edges.get(edgeId);
+                          var fromNode = nodes.get(edge.from);
+                          var toNode = nodes.get(edge.to);
+                          var edgeObjectId = fromNode.object_id + toNode.object_id;
+                          
+                          var info = `
+                              <h5>Edge Information</h5>
+                              <p><strong>From Node:</strong> ${fromNode.label}</p>
+                              <p><strong>To Node:</strong> ${toNode.label}</p>
+                              <p><strong>Edge Object ID:</strong> ${edgeObjectId}</p>
                           `;
                           
                           document.getElementById('node-info').innerHTML = info;
